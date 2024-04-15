@@ -1,35 +1,52 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Criada com o propósito de conectar você a histórias inspiradoras, a Garramo Stream viu a oportunidade de auxiliar indecisos na escolha filmes e séries e se destaca por sua habilidade em recomendar obras cinematográficas que se alinham perfeitamente aos seus gostos pessoais. 
+Com um vasto catálogo que inclui desde clássicos atemporais até as mais recentes produções originais, nossa plataforma utiliza tecnologia de ponta para garantir que cada recomendação seja uma porta aberta para um mundo de novas experiências. 
+Na Garramo Stream, cada sessão terá uma jornada personalizada pelo universo do cinema, projetada especialmente para você. 
+Descubra sua próxima história conosco!
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Pessoas indecisas acabam “agarrando” na escolha do filme. A indecisão na escolha de filmes consome tempo, gera frustração e pode levar os usuários a abandonarem a busca por entretenimento. A falta de orientação personalizada resulta em uma experiência menos satisfatória, prejudicando a fidelidade do usuário à plataforma.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Objetivo geral: 
+Auxiliar na escolha de filmes e séries recomendando títulos e categorias semelhantes às que o usuário sinalizar que possui interesse. 
+
+Objetivos específicos: 
+1. Otimizar a Experiência do Usuário
+2. Aumentar a Retenção de Usuários
+3. Aprimorar a Personalização das Recomendações
+4. Diversificar e Ampliar o Catálogo
+5. Facilitar a Navegação na Plataforma
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Os criadores desta plataforma, colocando-se na posição de usuários, perceberam o tempo perdido na escolha de um filme e sentiram a necessidade de uma plataforma que recomendasse conteúdo baseados em seus gostos. 
+Uma pesquisa realizada pela Telecine e divulgada pelo site Tela Viva, 2019, revela que, após a pandemia de COVID-19, os brasileiros têm preferido assistir a filmes em casa, por meio de plataformas de streaming, em detrimento do cinema. 
+Ademais, conforme indica o site Mundo Conectado, 2023, 51% do público que consome conteúdo online na TV possui entre uma e duas assinaturas de plataformas de streaming. Apenas 28% dos entrevistados possuem de três a seis assinaturas, enquanto 19% não assina nenhuma. Esse comportamento é mais acentuado entre pessoas com 50 anos ou mais, apontando para uma tendência crescente.
+<img> https://static.escolakids.uol.com.br/image/titulo-da-tabela.JPG </img>
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O público-alvo da Garramo Stream é composto por pessoas que buscam uma experiência cinematográfica personalizada e desejam superar a indecisão na escolha de filmes e séries. O foco principal são usuários de plataformas de streaming, especialmente aqueles que 
+preferem assistir a filmes em casa, como indicado pela pesquisa da Telecine. O público-alvo 
+abrange uma faixa etária diversificada. 
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+Características do Público-Alvo:
+1- Adolescentes (12 a 17 anos): Pessoas que enfrentam dificuldade em decidir qual filme ou série assistir, buscando orientação personalizada.
+2- Consumidores de Conteúdo Online: Aqueles que consomem regularmente conteúdo online na TV, demonstrando uma afinidade com plataformas de streaming.
+3- Interessados em Diversidade Cinematográfica: Pessoas que buscam uma variedade de títulos, desde clássicos atemporais até produções originais mais recentes.
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+Com o objetivo de proporcionar uma experiência mais satisfatória e personalizada, a Garramo Stream visa atender às necessidades desse público, otimizando a escolha de filmes, aumentando a retenção de usuários, aprimorando a personalização das recomendações e 
+facilitando a navegação na plataforma.
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+“Pessoas comuns” tendem a se tornar cada vez mais indecisas na escolha de um filme à medida que as opções de escolha aumentam. O estudo feito pelo psicólogo Barry Schartz, “O Paradoxo da Escolha” - fonte da pesquisa, define o paradoxo da escolha como um conceito da psicologia que afirma que, quanto mais opções temos, mais difícil se torna a tomada de decisão.
+
+Este paradoxo é também explicado neste vídeo do Youtube: 
+<a>https://www.youtube.com/watch?v=FpGgMdDimKY&ab_channel=EscapingOrdinary%28B.CMarx%29</a>
+
+
+
 

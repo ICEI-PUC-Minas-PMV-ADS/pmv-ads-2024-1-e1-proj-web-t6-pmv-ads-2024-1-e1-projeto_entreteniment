@@ -25,7 +25,7 @@ Objetivos específicos:
 Os criadores desta plataforma, colocando-se na posição de usuários, perceberam o tempo perdido na escolha de um filme e sentiram a necessidade de uma plataforma que recomendasse conteúdo baseados em seus gostos. 
 Uma pesquisa realizada pela Telecine e divulgada pelo site Tela Viva, 2019, revela que, após a pandemia de COVID-19, os brasileiros têm preferido assistir a filmes em casa, por meio de plataformas de streaming, em detrimento do cinema. 
 Ademais, conforme indica o site Mundo Conectado, 2023, 51% do público que consome conteúdo online na TV possui entre uma e duas assinaturas de plataformas de streaming. Apenas 28% dos entrevistados possuem de três a seis assinaturas, enquanto 19% não assina nenhuma. Esse comportamento é mais acentuado entre pessoas com 50 anos ou mais, apontando para uma tendência crescente.
-<a> [https://static.escolakids.uol.com.br/image/titulo-da-tabela.JPG](https://www.mundoconectado.com.br/wp-content/uploads/2023/12/23_12_14_103901.jpg) </a>
+<a> [https://mundoconectado.com.br/smarttvs/brasileiros-voltaram-a-ver-mais-tv-em-2023](https://www.mundoconectado.com.br/wp-content/uploads/2023/12/23_12_14_103901.jpg) </a>
 
 
 ## Público-Alvo

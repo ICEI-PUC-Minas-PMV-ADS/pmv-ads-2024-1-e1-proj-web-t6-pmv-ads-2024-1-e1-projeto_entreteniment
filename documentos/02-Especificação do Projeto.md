@@ -107,12 +107,16 @@ Matheus
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
-
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  Desempenho: A plataforma deve ser responsiva e rápida, garantindo tempos de carregamento rápidos e uma experiência de usuários gluida mesmo em momentos de pico de tráfego, utilizando um sistema de cache e o uso de banco de dados (a princípio Local Storage) para garantir um desempenho eficaz | Alta | 
+| RNF-02 |  Segurança: Implementar a autenticação de 2 fatores para garantir o acesso a plataforma. | Média |
+| RNF-03 |  Usabilidade: Realizar testes de usabilidade com usuários reais para identificar e corrigir problemas de navegação, fluxo de trabalho e acessibilidade | Alta |
+| RNF-04 |  Manutenção: Manter um registro de mudanças e versões para rastrear as alterações feitas na plataforma e garantir a reversão em caso de consequências | Alta |
+| RNF-05 |  Conformidade regulatória: Manter-se atualizado com as leis e regulamentações aplicáveis, como LGPD. | Alta |
+| RNF-06 |  Suporte técnico: fornecer um canal de suporte como chat ao vivo, e-mail ou telefone, para que os usuários possam obter ajuda quando necessário | Média |
+| RNF-07 |  Localização e internacionalização: Suportar mais de um idioma e formatos de data/hora a fim de abranger um público estrangeiro | Média |
+| RNF-08 |  Integridade dos dados: Garantir que os dados armazenados na plataforma sejam precisos, completos e consistentes ao longo do tempo, utilizando técnicas de validação e verificação de dados. | Média |
 
 **Prioridade: Alta / Média / Baixa. 
 

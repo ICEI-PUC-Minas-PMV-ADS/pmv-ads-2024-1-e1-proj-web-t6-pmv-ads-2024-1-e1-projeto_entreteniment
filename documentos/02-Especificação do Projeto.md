@@ -7,19 +7,73 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil: Usuário 1 - Matheus - Público de 12 a 15 anos </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Tem dificuldades em escolher um desenho/animes de seu gosto</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Deseja uma esperiência de plataforma que o auxilie na escolha de um desenho</td>
 </tr>
 </tbody>
 </table>
 
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil: Usuário 2 - Cauã - Público de 19 a 25 anos </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Consome pouco conteúdo em “TV aberta” e muito conteúdo em 
+plataformas de streaming</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Tem necessidades de encontrar filmes/séries para assistir durante 
+seu horário de almoço em tempo hábil</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil: Usuário 3 - Tia Vera - Público de 35 a 45 anos </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Consome pouco streaming, somente “doramas” e muito conteúdo 
+em TV aberta</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Tem necessidades de procurar um novo “dorama” de seu gosto
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil: Usuário 4 - Valdomiro - Público de 50 a 65 anos </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Consome conteúdos em plataformas de streaming somente com seu 
+neto</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Tem necessidades de procurar um desenho para o seu neto 
+Matheus
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Histórias de Usuários
 

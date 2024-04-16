@@ -78,13 +78,14 @@ Matheus
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Matheus                | Receber recomendações 
-personalizadas de 
-desenhos/animes com base nos 
-meus gostos e interesses                       | Aproveitar ao máximo os 
-intervalos de aula e o tempo 
-livre antes de dormir 
-assistindo desenhos                              |
+| Matheus            | Receber recomendações     | Aproveitar ao máximo os
+                       personalizadas de           intervalos de aula e o tempo 
+                       desenhos/animes com base    livre antes de dormir
+                       nos meus gostos e           assistindo desenhos
+                       interesses               
+ 
+ 
+                     |
 | ...                | ...                       | ...                              |
 
 ## Requisitos do Projeto

@@ -80,15 +80,12 @@ Matheus
 |--------------------|---------------------------|----------------------------------|
 | Matheus            | Receber recomendações personalizadas de desenhos/animes com base nos meus gostos e interesses. | Aproveitar ao máximo os intervalos de aula e o tempo livre antes de dormir assistindo desenhos.|
 | Matheus            | Uma lista com resenha sobre desenhos e animes  | Estar atualizado e participar de conversas sociais sobre os desenhos e animes mais comentados, fortalecendo conexões e interesses comuns |
+| Cauã               | Receber recomendações de séries e filmes da atualidade alinhados com meus interesses. | Descobrir e assistir 
+rapidamente filmes que são do meu gosto.  | 
+| Cauã               | Ser prático na escolha de séries e filmes. | Tenho 2 horas de almoço diárias, sendo assim, tenho tempo de assistir conteúdos de streaming.  |
+| Tia Vera           | Indicações de "doramas" com base nos meus gostos. | Não consumo muito conteúdo em plataformas de streaming, sendo doramas, meu único interesse.  |
+| Valdomiro           | Recomendações de desenhos baseados no gosto de meu neto Matheus. | Ter tempo de qualidade com meu neto em algo que ele admira muito.  |
 
-                                   
-                           
-                                  
-                                      
- 
- 
-                     
-| ...                | ...                       | ...                              |
 
 ## Requisitos do Projeto
 

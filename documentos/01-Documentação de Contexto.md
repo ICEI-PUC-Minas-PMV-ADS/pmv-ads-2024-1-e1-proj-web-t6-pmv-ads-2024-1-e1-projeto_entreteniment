@@ -27,7 +27,7 @@ Uma pesquisa realizada pela Telecine e divulgada pelo site Tela Viva, 2019, reve
 Ademais, conforme indica o site Mundo Conectado, 2023, 51% do público que consome conteúdo online na TV possui entre uma e duas assinaturas de plataformas de streaming. Apenas 28% dos entrevistados possuem de três a seis assinaturas, enquanto 19% não assina nenhuma. 
 Esse comportamento é mais acentuado entre pessoas com 50 anos ou mais, apontando para uma tendência crescente, podendo ser visualizado no gráfico a seguir: 
 
-<img> <a href="https://www.mundoconectado.com.br/wp-content/uploads/2023/12/23_12_14_103901.jpg/" target="_blank"> Gráfico Mundo Conectado</a> </img>
+<a href="https://www.mundoconectado.com.br/wp-content/uploads/2023/12/23_12_14_103901.jpg/" target="_blank"> Gráfico Mundo Conectado</a> 
 
 ## Público-Alvo
 

@@ -21,6 +21,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
+![Metodologia GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/6dc1a97c-2730-419f-9f6f-9166d4fc1613)
+Figura 1 - Tela do kanban no Trello utilizada pelo grupo
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>

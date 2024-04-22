@@ -65,7 +65,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | http://....                            |
 | Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Gerenciamento do Projeto            | Trello                             | https://trello.com/invite/b/l8ijcoVL/ATTI2b9b4610b9463febda1685114afa0c290644DB63/projeto-de-entretenimento                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 

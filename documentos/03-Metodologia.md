@@ -30,12 +30,12 @@ Figura 1 - Tela do kanban no Trello utilizada pelo grupo
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
 <ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
+  <li>Bug </li>
+  <li>Desenvolvimento </li>
+  <li>Documentação </li>
+  <li>Gerência de Projetos </li>
+  <li>Infraestrutura </li>
+  <li>Testes </li>
 </ul>
 
 ![Etiquetas Trello](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/8d6e0531-dd64-42ea-a584-76dfe5646079)

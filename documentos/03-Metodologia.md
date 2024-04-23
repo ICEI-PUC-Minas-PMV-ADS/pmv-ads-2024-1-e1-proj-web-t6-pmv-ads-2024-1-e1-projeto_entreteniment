@@ -56,8 +56,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment                          |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/documentos/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md                            |
+| Projeto de Interface                | Figma                              | [http://.... ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)                           |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/l8ijcoVL/projeto-de-entretenimento                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 

@@ -20,7 +20,8 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 [Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
  Tela - Login
-A tela de Login apresenta campos para a inserção do e-mail e da senha do usuário. Apresenta também o botão entrar(caso o usuário informe credenciais váridas é encaminhado para a Tela Dashboard) e o link esqueceu a senha.
+ 
+A tela de Login apresenta campos para a inserção do e-mail e da senha do usuário. Apresenta também o botão Cadastro 
  <img> ![Captura de tela 2024-05-06 165053](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/164710046/aa46aad2-0e1a-4aca-924f-7e93f6efc949)
 
 

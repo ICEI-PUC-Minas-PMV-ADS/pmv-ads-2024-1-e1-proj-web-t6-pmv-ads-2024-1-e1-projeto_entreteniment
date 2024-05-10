@@ -23,6 +23,8 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
  ### Tela de login
  
 A tela de Login apresenta campos para inserção dos dados "E-mail ou número de usuário", "Senha", "Lembre-se de mim", "Esqueceu a senha?", "Entrar" e "Novo por aqui? Cadastre-se".
+
+
  <img> ![tela de login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/c5aaba6e-5a42-4e78-9b3e-d1a96e65edd2)
 
 

@@ -15,7 +15,7 @@ Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas
 ### Protótipo de baixa fidelidade
 
 ## Tela principal 
-Nesta tela principal temos como ideia dar ao usuário uma pequena amostra de como é o nosso site. Teremos um video rodando ao fundo e a tela será animada, trazendo interações de pop-up para chamar a atenção e despertar o interesse do usuário.
+Nesta tela principal temos como ideia dar ao usuário uma pequena amostra de como é o nosso site. Teremos um video rodando ao fundo e a tela será animada, trazendo um vídeo em looping dos Estúdios Ghibli interações pop-up para chamar a atenção e despertar o interesse do usuário.
 
 
 <img> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/32ef5cf2-6e3f-4ffa-a27a-8d41f3a4a8d8)

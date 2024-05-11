@@ -26,7 +26,7 @@ header {
     top: 0;
     left: 0;
     width: 93%;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -89,9 +89,6 @@ user-select: none;
 .navigation .btnLogin-popup:hover {
      background: #fff;
      color: #162938;
- 
-
-
 }
 
 .banner {
@@ -110,9 +107,6 @@ user-select: none;
      left: 0;
      object-fit: cover;
      width: 100%;
-
-
-
 }
 
 .wrapper {
@@ -124,7 +118,7 @@ user-select: none;
     border: 2px solid rgba(255,255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    box-shadow: 0 0 30px  rgba(0,0,0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +139,7 @@ user-select: none;
 
 
 .wrapper.active {
-   height: 520px;
+   height: 502px;
   
 }
 
@@ -179,17 +173,15 @@ transform: translateX(-400px);
     position: absolute;
     transition: none;
     transform: translateX(400px);
-    height: 350px;
+    height: 430px;
     width: 300px;
+    
 
 }
 
 .wrapper.active .form-box.register {
     transition:  .18s ease;
     transform: translateX(0);
-
-
-
 }
 
 
@@ -274,21 +266,54 @@ transition: .5s;
 
 }
 
+.controle-parental {
+    font-size: .9em;
+    color: #fff;
+    font-weight: 500;
+    margin: -15px -5px 20px -102px;
+    display: flex;
+    text-align: justify;
+    justify-content:space-around; 
+}
+
+.controle-parental label input{
+    accent-color: #162938;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
 .remember-forgot {
     font-size: .9em;
     color: #fff;
     font-weight: 500;
-    margin: -15px 0 15px;
+    margin: -15px -5px 20px -21px;
     display: flex;
-    justify-content: space-between;
-
+    text-align: center;
+    justify-content:space-around; 
 }
 
 .remember-forgot label input{
     accent-color: #162938;
     margin-right: 3px;
-
+    margin-left: 3px;
 }
+
+.notifications {
+    font-size: .9em;
+    color: #fff;
+    font-weight: 500;
+    margin: -15px 0 15px -10px;
+    display: flex;
+    text-align: center;
+    justify-content:space-around; 
+}
+
+.notifications label input{
+    accent-color: #162938;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
 
 .remember-forgot a{
  color: #fff;

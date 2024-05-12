@@ -2,21 +2,20 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
 ### Título da funcionalidade
 
-[Adicione imagem da funcionalidade/tela]
+<img> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/0a098c97-39b5-4b51-a0cb-408b2c176374)
 
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+[RF-01: Registro de usuários] Permitir que usuários se cadastrem na plataforma criando contas pessoais para que recebam indicações personalizadas, utilizando Local Storage 
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+&bull; codigo-fonte_index.html
+&bull; codigo-fonte_style.css
 
 
 #### Estrutura de Dados

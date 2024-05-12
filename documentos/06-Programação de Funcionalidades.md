@@ -9,35 +9,33 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido
 
-[RF-01: Registro de usuários] Permitir que usuários se cadastrem na plataforma criando contas pessoais para que recebam indicações personalizadas, utilizando Local Storage 
+[RF-01: Registro de usuários] Permitir que usuários se cadastrem na plataforma criando contas pessoais para que recebam indicações personalizadas, utilizando Local Storage. Esta tela de cadastro está como pop-up na tela principal da aplicação. Ela está visível àqueles usuários que não possuem login e, após clicar em "Cadastrar-se", a tela Cadastro é exibida.
 
 
 #### Artefatos da funcionalidade
 
-&bull; codigo-fonte_index.html
+&bull; codigo-fonte_index.html <br>
 &bull; codigo-fonte_style.css
 
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+<p> Código index.html do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
+
+<p> Código style.css do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+<p> Hospedagem do site pelo <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/"> GitHub </a></p>
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Daniel Laurindo, André Samuel
 
 
 
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
 

@@ -6,6 +6,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 
 <img> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/0a098c97-39b5-4b51-a0cb-408b2c176374)
+
 Figura 1 - Tela Entrar
 
 
@@ -24,9 +25,44 @@ Figura 2 - Tela Cadastro
 
 #### Estrutura de Dados
 
-<p> Código index.html do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
+<p> Código "index.html" desta funcionalidade no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
 
-<p> Código style.css do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
+<p> Código "style.css" desta funcionalidade no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
+
+
+#### Instruções de acesso
+
+<p> Hospedagem do site pelo <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/"> GitHub </a></p>
+
+
+#### Responsável
+
+Daniel Laurindo
+
+
+### RF-04: Busca avançada 
+
+
+<img> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/57ff03ac-2b05-4be4-9b30-94c0ed9d0aeb)
+
+
+Figura 3 - Busca avançada
+
+
+#### Requisito atendido
+[RF-04: Busca avançada] A funcionalidade busca avançada visa agilizar o acesso do usuário pelas suas preferências. Desta forma o usuário poderá filtrar pela busca avançada Animes, Filmes, Infantis e Séries. Além de poder digitar o que deseja pela área de Pesquisa.
+
+#### Artefatos da funcionalidade
+
+&bull; codigo-fonte_tela-inicial_inicial.html <br>
+&bull; codigo-fonte_tela-inicial_main.css 
+
+
+#### Estrutura de Dados
+
+<p> Código "inicial.html" deste requisito no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/tela-incial/inicial.html"> GitHub </a></p>
+
+<p> Código "main.css" deste requisito no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/tela-incial/main.css"> GitHub </a></p>
 
 
 #### Instruções de acesso
@@ -45,7 +81,7 @@ Daniel Laurindo
 
 <img> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/33125c50-2775-4132-a61b-e8673f4ac177)
 
-Figura 3 - Notificações
+Figura 4 - Notificações
 
 #### Requisito atendido
 
@@ -60,9 +96,9 @@ Figura 3 - Notificações
 
 #### Estrutura de Dados
 
-<p> Esta funcionalidade se encontra em "index.html" do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
+<p> Código "index.html" deste requisito no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
 
-<p> Esta funcionalidade se encontra em "style.css" do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
+<p> Código "style.css" deste requisito no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
 
 
 #### Instruções de acesso
@@ -98,9 +134,9 @@ Figura 4 - Controle dos pais
 
 #### Estrutura de Dados
 
-<p> Esta funcionalidade se encontra em "index.html" do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
+<p> Código "index.html" deste requisito no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/index.html"> GitHub </a></p>
 
-<p> Esta funcionalidade se encontra em "style.css" do Projeto Garramo no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
+<p> Código "style.css" deste requisito no <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/codigo-fonte/style.css"> GitHub </a></p>
 
 
 #### Instruções de acesso

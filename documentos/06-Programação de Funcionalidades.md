@@ -118,7 +118,7 @@ André Samuel
 <img> ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/141928161/33125c50-2775-4132-a61b-e8673f4ac177)
 
 
-Figura 4 - Controle dos pais
+Figura 5 - Controle dos pais
 
 
 #### Requisito atendido

@@ -227,8 +227,7 @@ border-radius: 10px;
 
 .carousel {
     position: relative;
-    height: 550px;
-    perspective: 1500px;
+    height: 450px;
 }
 
 .carousel .carousel-item {

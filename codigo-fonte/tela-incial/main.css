@@ -145,7 +145,8 @@ header {
 }
 
 .movie-title{
-    max-width: 400px;
+    max-width: 350px;
+    
 }
 
 .banneer .contentt h4{
@@ -214,7 +215,7 @@ header {
 
 .banneer .carousel-box {
 position: relative;
-min-width: 950px;
+min-width: 650px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -227,7 +228,9 @@ border-radius: 10px;
 
 .carousel {
     position: relative;
-    height: 450px;
+    height: 350px;
+    margin-top: 20px;
+
 }
 
 .carousel .carousel-item {

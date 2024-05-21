@@ -8,10 +8,11 @@
 
 body {
     /* Imagem de fundo */
-    height: 100vh;
-    background-image: url("https://wallpaper.forfun.com/fetch/bd/bd38ecaaafede70d5316bd433e2d46cb.jpeg");
-    background-position: 30% 30%;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://wallpaper.forfun.com/fetch/bd/bd38ecaaafede70d5316bd433e2d46cb.jpeg");
     background-size: cover;
 }
 
@@ -32,9 +33,6 @@ header {
     color: antiquewhite;
     user-select: none;
     margin-left: 5%;
-    margin-top: auto;
-
-
 }
 
 .navigation a {
@@ -90,14 +88,14 @@ header {
 
 .wrapper {
 
-    width: 440px;
+    padding: 5px 5px 5px 5px; 
     height: 440px;
-    right: 38%;
+    right: 0%;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 2px solid rgba(255,255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 30px  rgba(0,0,0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,41 +109,30 @@ header {
 
 .wrapper.active-popup {
     transform: scale(1);
-
-
-
 }
-
 
 .wrapper.active {
     height: 502px;
 
 }
 
-
-
-.wrapper .form-box {
+.wrapper .form-box{
 
     width: 100%;
     padding: 30px;
     height: 320px;
-
-}
+    
+    }
 
 .wrapper .form-box.login {
     transition: .18s ease;
     transform: translateX(0);
-
-
 }
 
 
 .wrapper.active .form-box.login {
-
     transition: none;
     transform: translateX(-400px);
-
-
 }
 
 .wrapper .form-box.register {
@@ -154,8 +141,6 @@ header {
     transform: translateX(400px);
     height: 430px;
     width: 300px;
-
-
 }
 
 .wrapper.active .form-box.register {

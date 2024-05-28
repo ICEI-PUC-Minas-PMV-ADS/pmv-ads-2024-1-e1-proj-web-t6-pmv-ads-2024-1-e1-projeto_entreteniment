@@ -88,8 +88,6 @@ Matheus
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
 
 
@@ -97,11 +95,11 @@ Matheus
 |-------|---------------------------------|----|
 | RF-01 |  Registro de usuários: Permitir que usuários se cadastrem na plataforma criando contas pessoais para que recebam indicações personalizadas, utilizando Local Storage   | Alta   | 
 | RF-02 |  Sistema de recomendações: implementar algoritmos de recomendação que sugiram filmes, séries e desenhos com base nos interesses e histórico de visualização dos usuários utilizando a filtragem baseaada em conteúdo  | Alta   |
-| RF-03 |  Gamificação: Implementar elementos de gamificação, como conquistas, pontos e níveis, para incentivar a participação dos usuários e aumentar o engajamento, através da linguagem de programação JavaScript  | Alta   |
+| RF-03 |  Gamificação: Implementar elementos de gamificação, como conquistas, pontos e níveis, para incentivar a participação dos usuários e aumentar o engajamento, através da linguagem de programação JavaScript  | Requisito não atendido por falta de pessoas |
 | RF-04 |  Busca avançada: Possibilitar aos usuários realizar buscas avançadas por títulos, atores, diretores, palavras-chave etc, através da linguagem de programação JavaScritp  | Alta   |
 | RF-05 |  Notificações: enviar notificações aos usuários sobre novos lançamentos, recomendações personalizadas, atualizações de conteúdo, através de e-mail, mensagens SMS etc.  | Alta   |
 | RF-06 |  Controle de pais: Oferecer ferramentas de controle dos pais para gerenciar o acesso e as recomendações de conteúdo para crianças e adolescentes, através da linguagem de programação JavaScript  | Alta   |
-| RF-07 |  Integração com serviços de streaming: Permitir que os usuários acessem a conteúdos de serviços de streaming diretamente da plataforma, disponibilizando links para acesso na própria plataforma, através de API   | Alta   |
+| RF-07 |  Integração com serviços de streaming: Permitir que os usuários acessem a conteúdos de serviços de streaming diretamente da plataforma, disponibilizando links para acesso na própria plataforma, através de API   | Requisito não atendido por falta de pessoas |
 
 **Prioridade: Alta / Média / Baixa. 
 

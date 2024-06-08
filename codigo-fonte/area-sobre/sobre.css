@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -31,7 +32,8 @@ header {
 .text {
     color: #fff;
     margin-top: -40vh;
-
+    z-index: 1;
+    
 }
 
 .garramo {
@@ -94,45 +96,46 @@ header {
 
 .wrapper {
 
-    width: 370px;
-    height: 440px;
-    right: 0%;
-    background: transparent;
+    width: 330px;
+    height: auto;
     border: 2px solid rgba(255,255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px  rgba(0,0,0, .5);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 1;
     overflow: hidden;
     transform: scale(0);
     transition: .2s ease;
     transform: .5s;
+    z-index: 1;
+    padding: 20px;
+    
 }
 
 .wrapper.active-popup {
     transform: scale(1);
-}
-
-.wrapper.active {
-    height: 502px;
-
+    height: 420px;
 }
 
 .wrapper .form-box{
 
     width: 100%;
-    padding: 30px;
-    height: 320px;
-    
-    }
+    height: auto;
+    padding: 40px;
+    background: transparent;
+    border-radius: 10px;    
+}
 
 .wrapper .form-box.login {
     transition: .18s ease;
     transform: translateX(0);
+    padding: 10px 0 0 10px;
+    line-height: 1.5em;
+    margin-left: -15px;
 }
 
 
@@ -144,9 +147,9 @@ header {
 .wrapper .form-box.register {
     position: absolute;
     transition: none;
-    transform: translateX(400px);
-    height: 430px;
-    width: 300px;
+    transform: translateX(300px);
+    padding: 0 0 0 px;
+    
 }
 
 .wrapper.active .form-box.register {
@@ -179,7 +182,7 @@ header {
 
 .form-box h2 {
 
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
     text-align: center
 }
@@ -187,9 +190,9 @@ header {
 .input-box {
     position: relative;
     width: 100%;
-    height: 300px;
+    margin: 20px;
     border-bottom: 2px solid #fff;
-    margin: 30px 0;
+    
 
 }
 
@@ -198,7 +201,7 @@ header {
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-    font-size: 1em;
+    font-size: 0.9em;
     color: #fff;
     font-weight: 500;
     pointer-events: none;
@@ -215,11 +218,10 @@ header {
 
 .input-box input {
     width: 100%;
-    height: 100%;
     background: transparent;
     border: none;
     outline: none;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #fff;
     font-weight: 600;
     padding: 0 32px 0 5px;
@@ -229,83 +231,47 @@ header {
 .input-box .icon {
     position: absolute;
     right: 8px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff;
 
 
 }
 
-.controle-parental {
-    font-size: .9em;
-    color: #fff;
-    font-weight: 500;
-    margin: -15px -5px 20px -102px;
-    display: flex;
-    text-align: justify;
-    justify-content: space-around;
-}
-
-.controle-parental label input {
-    accent-color: #162938;
-    margin-right: 3px;
-    margin-left: 3px;
-}
-
-.remember-forgot {
-    font-size: .9em;
+.controle-parental,
+.remember-forgot,
+.notifications {
+    font-size: 0.8em;
     color: #fff;
     font-weight: 500;
-    margin: -15px -5px 20px -21px;
+    margin: 10px 0;
     display: flex;
-    text-align: center;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .remember-forgot1 a {
-    font-size: .9em;
+    font-size: 0.8em;
     font-weight: 500;
-    padding: 10px, 10px, 10px, 50px;
     color: #fff;
     display: flex;
-    text-align: center;
     justify-content: center;
     
 }
 
 .remember-forgot1 label {
-    font-size: .9em;
+    font-size: .8em;
     font-weight: 500;
-    padding: 10px, 10px, 10px, 10px;
     color: #fff;
     display: flex;
-    text-align: center;
-    break-after: auto;
     justify-content: center;
     
 }
 
-.remember-forgot label input {
+.remember-forgot label input,
+.notifications label input,
+.controle-parental label input {
     accent-color: #ffffff;
     margin-right: 3px;
-    margin-left: 3px;
 }
-
-.notifications {
-    font-size: .9em;
-    color: #fff;
-    font-weight: 500;
-    margin: -15px 0 15px -10px;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.notifications label input {
-    accent-color: #162938;
-    margin-right: 3px;
-    margin-left: 3px;
-}
-
 
 .remember-forgot a {
     color: #fff;
@@ -314,10 +280,7 @@ header {
 }
 
 .remember-forgot a:hover {
-
     text-decoration: underline;
-
-
 }
 
 .btn {
@@ -328,18 +291,21 @@ header {
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #fff;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .login-register {
-    font-size: .9em;
+    font-size: 0.8em;
     color: #fff;
     text-align: center;
     font-weight: 500;
-    margin: 25px 0 10px;
+    margin: 15px 0 10px;
 
 }
 

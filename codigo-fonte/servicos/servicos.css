@@ -487,10 +487,8 @@ margin-top: auto;
 
 .wrapper {
   
-    width: 440px;
-    height: 440px;
-    right: 38%;
-    background: transparent;
+    width: 330px;
+    height: auto;
     border: 2px solid rgba(255,255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
@@ -504,6 +502,7 @@ margin-top: auto;
     transform: scale(0);
     transition: .2s ease;
     transform: .5s;
+    padding: 20px;
 }
 
 .wrapper.active-popup{
@@ -585,7 +584,6 @@ transform: translateX(-400px);
 
 
 }
-
 
 .form-box h2 {
    

@@ -15,8 +15,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background: url();
-background-color: #162938;
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ad23e84-23be-4eef-966d-8be0193fc0c8/dfivv4s-e047374b-d411-411e-a6ae-a90c8115ecb1.jpg/v1/fill/w_1920,h_1280,q_75,strp/ghibli_inspired_wallpaper__1_by_machineistkaput_dfivv4s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzVhZDIzZTg0LTIzYmUtNGVlZi05NjZkLThiZTAxOTNmYzBjOFwvZGZpdnY0cy1lMDQ3Mzc0Yi1kNDExLTQxMWUtYTZhZS1hOTBjODExNWVjYjEuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ._pJvILT0udhux7BmjuNI-DI9l9UEmVnvYyUcuMgrEJs');
+background-color: #4c4244;
 background-size: cover;
 background-position: center;
 
@@ -36,11 +36,13 @@ header {
 }
 
 .container {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #162938;
+    min-height: 50%vh;
+    background-color: #aacee8;
     margin-left: 250px;
     margin-top: 100px;
+    border-radius: 3%;
+    background: transparent, 10%;
+    
 }
 
 .service-wrapper {
@@ -68,6 +70,7 @@ p{
     grid-template-columns: repeat(3,1fr);
     gap: 20 px
 }
+
 
 .garramo {
 font-size:2em;

@@ -33,15 +33,16 @@ header {
     z-index: 99;
 }
 
-.garramo {
-font-size:2em;
-color: antiquewhite;
-user-select: none;
-margin-left: 5%;
-margin-top: auto;
 
+.garramo a {
+    font-size:1.5em;
+    color: antiquewhite;
+    user-select: none;
+    margin-left: 10%;
+    margin-top: auto;
+    text-decoration: none;
 
-}
+}    
 
 .navigation a {
      position: relative;

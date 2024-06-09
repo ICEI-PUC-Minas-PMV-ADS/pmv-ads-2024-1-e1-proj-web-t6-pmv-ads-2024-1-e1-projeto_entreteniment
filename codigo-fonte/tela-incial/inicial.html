@@ -1,164 +1,463 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Garramo</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
     <link rel="stylesheet" href="main.css">
 
-    <title> Garramo </title>
 </head>
 <body>
+
+
     <header>
-     <a href="../index.html" class="logo"> Garramo </a>
-    <ul class="nav">
-      <li>
-        <a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>
-        </a>
-    </li>
-      <li><a href="#">Anime</a></li>
-      <li><a href="#">Filmes</a></li>
-      <li><a href="#">Infantis</a></li>
-      <li><a href="#">Séries</a></li>
-    </ul>
-    <div class="pesquisar">
-        <input type="text" placeholder="Pesquisar">
-   <i class="fa fa-search" aria-hidden="true"></i>
-    </div>
+        <a href="#" class="logo"><i class="fas fa-infinity"></i>Garramo</a>
+        <nav class="navbar">
+             <a href="inicial.html">home</a>
+             <a href="#Todos">Todos</a>
+             <a href="#Fantasia">Fantasia</a>
+             <a href="#Aventura">Aventura</a>
+             <a href="#Romance">Romance</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
     </header>
-    <div class="banneer">
-        <div class="contentt princesa mononoke active">
-            <img src="img/princess mononoke 1.png" alt="" class="movie-title">
 
-            <h4>
-                <span> 1997 </span><span><i> 12+ </i></span><span> 2h 13min </span><span> Fantasia/Aventura </span>
-            </h4>
-            <p>  
-              Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.
-            </p>
-                <div class="button">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Ler resenha </a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-            </div>
-        </div>
-        <div class="contentt O Castelo Animado ">
-            <img src="./img/castelo animado logo.png" alt="" class="movie-title">
 
-            <h4>
-                <span> 2004 </span><span><i> 12+ </i></span><span> 2h </span><span> Fantasia </span>
-            </h4>
-            <p>  
-              Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a em uma velha. Desesperada, ela embarca em uma odisseia em busca do mago Howl, um misterioso feiticeiro que pode ajudála a reverter o feitiço.
-            </p>
-                <div class="button">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assista</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-            </div>
-        </div>
-        <div class="contentt viagem de chihiro">
-            <img src="./img/a viagem de chihiro logo.png" alt="" class="movie-title">
 
-            <h4>
-                <span> 2001 </span><span><i> Livre </i></span><span> 2h 05min </span><span> Fantasia/Aventura </span>
-            </h4>
-            <p>  
-                Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.            
-            </p>
-                <div class="button">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assista</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-            </div>
-        </div>
-        <div class="contentt Meu Amigo Totoro">
-            <img src="./img/meu amigo totoro logo.png" alt="" class="movie-title">
+<section class="home" id="home">
 
-            <h4>
-                <span> 1988 </span><span><i> Livre </i></span><span> 1h 26min </span><span> Fantasia </span>
-            </h4>
-            <p>  
-                As irmãs Satsuki e Mei se mudam para o campo para ficar mais perto do hospital onde sua mãe está internada. Lá conhecem os Totoros, adoráveis criaturas místicas e alegres, que só podem ser vistas pelas crianças. Com eles, as duas irmãs viverão mágicas aventuras no campo.
-            </p>
-                <div class="button">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assista</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-            </div>
-        </div>
-        <div class="contentt o rapaz e a garça">
-            <img src="./img/o rapaz e a garça.png" alt="" class="movie-title">
+    <div class="swiper home-slider">
 
-            <h4>
-                <span> 2023 </span><span><i> 12+ </i></span><span>2h 4min</span><span> Fantasia/Aventura </span>
-            </h4>
-            <p>  
-                Mahito, um menino de 12 anos, luta para se estabelecer em uma nova cidade após a morte de sua mãe. Quando uma garça falante conta para Mahito que sua mãe ainda está viva, ele entra em uma torre abandonada em busca dela, o que o leva para outro mundo.
-            </p>
-                <div class="button">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assista</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-            </div>
-        </div>
-        <div class="carousel-box">
-            <div class="carousel">
-                <div class="carousel-item"
-                
-                >
-                    <img src="./img/poster mononoke.jpg" alt=""/>
-                </div>
-                    <div class="carousel-item"
-                   
-                    >
-                        <img src="./img/O Castelo Animado (2004).jpg" alt="">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/castelo\ animado.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>O Castelo Animado</h3>
+                        <p> Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a em uma velha. Desesperada, ela embarca em uma odisseia em busca do mago Howl, um misterioso feiticeiro que pode ajudá-la a reverter o feitiço.
+                        </p>
+                        <a href="#" class="btn">Assistir</a>
+                        
                     </div>
-                        <div class="carousel-item"
-                       
-                        >
-                            <img src="./img/viagem de chhiro.jpg" alt="">
-                        </div>
-                            <div class="carousel-item"
-                            
-                            >
-                                <img src="./img/Meu Amigo Totoro.jpg" alt="">
-                            </div>
-                                <div class="carousel-item" 
-                               
-                                >
-                                    <img src="./img/o rapaz e a garça.jpg" alt="">
-                                    
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(img/chihiroo.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>A Viagem de Chihiro</h3>
+                        <p>Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/Ashitaka.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Princesa Mononoke</h3>
+                         <p>Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/castelo\ do\ ceu.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>O Castelo do Céu</h3>
+                        <p>Sheeta, uma jovem órfã que possui um colar misterioso se une ao mineiro Pazu para procurar uma lendária cidade flutuante. Mas a dupla é perseguida por gananciosos piratas aéreos.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="anime" id="Todos">
+    <h1 class="heading">Todos</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/o-castelo-animado.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>O Castelo Animado</h3>
+                    <p>Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a em uma velha. Desesperada, ela embarca em uma odisseia em busca do mago Howl, um misterioso feiticeiro que pode ajudá-la a reverter o feitiço.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/meu-amigo-totoro.png) no-repeat;"></div>
+                <div class="content">
+                    <h3>Meu Amigo Totoro</h3>
+                    <p>As irmãs Satsuki e Mei se mudam para o campo para ficar mais perto do hospital onde sua mãe está internada. Lá conhecem os Totoros, adoráveis criaturas místicas e alegres, que só podem ser vistas pelas crianças. Com eles, as duas irmãs viverão mágicas aventuras no campo.
+                    </p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/vidas-ao-vento.png) no-repeat;"></div>
+                <div class="content">
+                    <h3>Vidas ao Vento</h3>
+                    <p>Jiro Horikoshi é um jovem que vive em uma cidade no interior do Japão. Ele tem o sonho de voar em um avião com formato de pássaro. A partir desse sonho, Jiro decide que construir um avião como deseja e colocá-lo no ar é a meta de sua vida. Durante a busca pela realização deste objetivo, ele conhece Naoko, uma jovem encantadora por quem se apaixona. No entanto, Naoko fica profundamente doente, sem saber se sobreviverá, e os planos de Jiro podem estar prestes a mudar.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/princesa-mononoke.png) no-repeat;"></div>
+                <div class="content">
+                    <h3>Princesa Mononoke</h3>
+                    <p>Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/o-rapaz-e-a-garça.png) no-repeat;"></div>
+                <div class="content">
+                    <h3>O Rapaz e a Garça</h3>
+                    <p>Mahito, um menino de 12 anos, luta para se estabelecer em uma nova cidade após a morte de sua mãe. Quando uma garça falante conta para Mahito que sua mãe ainda está viva, ele entra em uma torre abandonada em busca dela, o que o leva para outro mundo.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/chihiro.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>A Viagem de Chihiro</h3>
+                    <p>Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/ponyo.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Ponyo</h3>
+                    <p>O garoto Sousuke encontra um peixinho dourado preso em uma garrafa e decide libertá-lo, sem saber que se trata da deusa do mar Ponyo. Filha de um poderoso mago, ela se comove com a atitude do menino e usa a magia do pai para se transformar em humana. Dessa forma, acredita poder fortalecer a amizade com Sousuke. Porém, a substância de sua poção mágica pode colocar em risco o vilarejo onde mora o menino.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/sussurros-do-coraçao.png) no-repeat;"></div>
+                <div class="content">
+                    <h3>Sussurros do Coração</h3>
+                    <p>Shizuku, uma estudante que sonha ser uma escritora e decide, durante o verão, ler vinte livros. Mas, curiosamente, todas as edições que Shizuki pegou na biblioteca já haviam sido lidas por um tal de Seiji Amasawa.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/memorias-de-ontem.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Memórias de Ontem</h3>
+                    <p>Taeko é uma mulher solteira que se dedica apenas ao trabalho. Ela sai de sua nativa Tóquio pela primeira vez e viaja a Yamagata para visitar a família da irmã durante a colheita anual de açafrão-bastardo. Ao longo da viagem, ela começa a questionar se sua vida estressante é o que desejava quando jovem.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/nausicaa.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Nausicaä do Vale do Vento</h3>
+                    <p>Mil se passaram após a Terra ser varrida pela Guerra dos Sete Dias de Fogo. O planeta se tornou hostil, cheio de florestas tóxicas e insetos gigantes. Enquanto tenta navegar nesse mundo de perigos, a princesa Nausicaä, a soberana de um pequeno reino, tenta de todas as formas salvar o seu povo e impedir que duas nações entrem em guerra e se destruam em um planeta agonizante.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/O-Mundo-dos-Pequeninos.png) no-repeat;"></div>
+                <div class="content">
+                    <h3>O Mundo dos Pequeninos</h3>
+                    <p>Arrietty e sua família são seres pequenos, moram sob uma casa antiga e sobrevivem roubando itens da casa dos humanos e colocando a culpa em gatos e ratos. Quando o jovem Shawn se hospeda na casa, fica amigo de Arrietty, colocando o segredo em risco.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+                <div class="swiper-slide">
+
+                    <div class="box" style="background: url(img/o-castelo-do-ceu.png) no-repeat;"></div>
+                    <div class="content">
+                        <h3>O Castelo do Céu</h3>
+                        <p>Sheeta, uma jovem órfã que possui um colar misterioso se une ao mineiro Pazu para procurar uma lendária cidade flutuante. Mas a dupla é perseguida por gananciosos piratas aéreos.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/eu-posso-ouvir-o-oceano.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Eu Posso Ouvir o Oceano</h3>
+                    <p>A chegada de uma bela estudante de Tóquio provoca uma problema na relação entre dois melhores amigos.
+                        <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="action" id="Fantasia">
+    <h1 class="heading">Fantasia</h1>
+    <div class="swiper action-slider">
+        <div class="swiper-wrapper">
+
+
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/howls.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>O Castelo Animado</h3>
+                        <p>Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a em uma velha. Desesperada, ela embarca em uma odisseia em busca do mago Howl, um misterioso feiticeiro que pode ajudá-la a reverter o feitiço.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
                 </div>
 
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/princesa-mononoke.png) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Princesa Mononoke</h3>
+                        <p>Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/o-castelo-do-ceu.png) no-repeat;"></div>
+                    <div class="content">
+                        <h3>O Castelo do Céu</h3>
+                        <p>Sheeta, uma jovem órfã que possui um colar misterioso se une ao mineiro Pazu para procurar uma lendária cidade flutuante. Mas a dupla é perseguida por gananciosos piratas aéreos.
+                        </p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/nausicaa.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Nausicaä do Vale do Vento</h3>
+                        <p>Mil se passaram após a Terra ser varrida pela Guerra dos Sete Dias de Fogo. O planeta se tornou hostil, cheio de florestas tóxicas e insetos gigantes. Enquanto tenta navegar nesse mundo de perigos, a princesa Nausicaä, a soberana de um pequeno reino, tenta de todas as formas salvar o seu povo e impedir que duas nações entrem em guerra e se destruam em um planeta agonizante.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/O-Mundo-dos-Pequeninos.png) no-repeat;"></div>
+                    <div class="content">
+                        <h3>O Mundo dos Pequeninos</h3>
+                        <p>Arrietty e sua família são seres pequenos, moram sob uma casa antiga e sobrevivem roubando itens da casa dos humanos e colocando a culpa em gatos e ratos. Quando o jovem Shawn se hospeda na casa, fica amigo de Arrietty, colocando o segredo em risco.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/ponyo.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Ponyo</h3>
+                        <p>O garoto Sousuke encontra um peixinho dourado preso em uma garrafa e decide libertá-lo, sem saber que se trata da deusa do mar Ponyo. Filha de um poderoso mago, ela se comove com a atitude do menino e usa a magia do pai para se transformar em humana. Dessa forma, acredita poder fortalecer a amizade com Sousuke. Porém, a substância de sua poção mágica pode colocar em risco o vilarejo onde mora o menino.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/chihiro.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>A Viagem de Chihiro</h3>
+                        <p>Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.</p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/meu-amigo-totoro.png) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Meu Amigo Totoro</h3>
+                        <p>As irmãs Satsuki e Mei se mudam para o campo para ficar mais perto do hospital onde sua mãe está internada. Lá conhecem os Totoros, adoráveis criaturas místicas e alegres, que só podem ser vistas pelas crianças. Com eles, as duas irmãs viverão mágicas aventuras no campo.
+                        </p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/o-rapaz-e-a-garça.png) no-repeat;"></div>
+                    <div class="content">
+                        <h3>O Rapaz e a Garça</h3>
+                        <p>Mahito, um menino de 12 anos, luta para se estabelecer em uma nova cidade após a morte de sua mãe. Quando uma garça falante conta para Mahito que sua mãe ainda está viva, ele entra em uma torre abandonada em busca dela, o que o leva para outro mundo.
+                        </p>
+                        <a href="#" class="btn">Assistir</a>
+                    </div>
+                </div>
+
+
+
+
+</div>
+</section>
+
+
+
+<section class="child" id="Aventura">
+    <h1 class="heading">Aventura</h1>
+    <div class="swiper child-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/howls.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>O Castelo Animado</h3>
+                    <p>Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a em uma velha. Desesperada, ela embarca em uma odisseia em busca do mago Howl, um misterioso feiticeiro que pode ajudá-la a reverter o feitiço.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/nausicaa.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Nausicaä do Vale do Vento</h3>
+                    <p>Mil se passaram após a Terra ser varrida pela Guerra dos Sete Dias de Fogo. O planeta se tornou hostil, cheio de florestas tóxicas e insetos gigantes. Enquanto tenta navegar nesse mundo de perigos, a princesa Nausicaä, a soberana de um pequeno reino, tenta de todas as formas salvar o seu povo e impedir que duas nações entrem em guerra e se destruam em um planeta agonizante.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/chihiro.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>A Viagem de Chihiro</h3>
+                    <p>Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/meu-amigo-totoro.png) no-repeat"></div>
+                <div class="content">
+                    <h3>Meu Amigo Totoro</h3>
+                    <p>As irmãs Satsuki e Mei se mudam para o campo para ficar mais perto do hospital onde sua mãe está internada. Lá conhecem os Totoros, adoráveis criaturas místicas e alegres, que só podem ser vistas pelas crianças. Com eles, as duas irmãs viverão mágicas aventuras no campo.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/ponyo.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Ponyo</h3>
+                    <p>O garoto Sousuke encontra um peixinho dourado preso em uma garrafa e decide libertá-lo, sem saber que se trata da deusa do mar Ponyo. Filha de um poderoso mago, ela se comove com a atitude do menino e usa a magia do pai para se transformar em humana. Dessa forma, acredita poder fortalecer a amizade com Sousuke. Porém, a substância de sua poção mágica pode colocar em risco o vilarejo onde mora o menino.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/o-rapaz-e-a-garça.png) no-repeat"></div>
+                <div class="content">
+                    <h3>O Rapaz e a Garça</h3>
+                    <p>Mahito, um menino de 12 anos, luta para se estabelecer em uma nova cidade após a morte de sua mãe. Quando uma garça falante conta para Mahito que sua mãe ainda está viva, ele entra em uma torre abandonada em busca dela, o que o leva para outro mundo.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/princesa-mononoke.png) no-repeat"></div>
+                <div class="content">
+                    <h3>Princesa Mononoke</h3>
+                    <p>Um príncipe, em busca de uma cura, luta em uma guerra entre a mata e uma colônia mineira. Nesta aventura ele conhece Mononoke.</p>
+                    <a href="#" class="btn">Assistir</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="family" id="Romance">
+    <h1 class="heading">Romance</h1>
+    <div class="swiper family-slider">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/eu-posso-ouvir-o-oceano.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Eu Posso Ouvir o Oceano</h3>
+                <p>A chegada de uma bela estudante de Tóquio provoca uma problema na relação entre dois melhores amigos.</p>
+                <a href="#" class="btn">Assistir</a>
             </div>
         </div>
-         <a href="#" class="play"  onClick="toggleVideo();"
-         ><i class="fa fa-play-circle-o" aria-hidden="true"></i> Assistir Trailer</a>
-         <ul class="sci">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-         </ul>
-    </div>
-    <div class="trailer">
-        <video src="./movie/PRINCESS MONONOKE _ Official Trailer (1080p).mp4"
-            muted
-            controls="true"
-            autoplay="true"
 
-            ></video>
-            <img class="close" src="./img/close.png" alt="" 
-            onClick="toggleVideo();">
-    </div>
-    <script
-  src="https://code.jquery.com/jquery-3.7.1.js"
-  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="garramo.js"></script>
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/memorias-de-ontem.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Memórias de Ontem</h3>
+                <p>Taeko é uma mulher solteira que se dedica apenas ao trabalho. Ela sai de sua nativa Tóquio pela primeira vez e viaja a Yamagata para visitar a família da irmã durante a colheita anual de açafrão-bastardo. Ao longo da viagem, ela começa a questionar se sua vida estressante é o que desejava quando jovem.</p>
+                <a href="#" class="btn">Assistir</a>
+            </div>
+        </div>
 
-    <script>
-          $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-    </script>
-</body>
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/sussurros-do-coraçao.png) no-repeat"></div>
+            <div class="content">
+                <h3>Sussurros do Coração</h3>
+                <p>Shizuku, uma estudante que sonha ser uma escritora e decide, durante o verão, ler vinte livros. Mas, curiosamente, todas as edições que Shizuki pegou na biblioteca já haviam sido lidas por um tal de Seiji Amasawa.</p>
+                <a href="#" class="btn">Assistir</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/howls.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>O Castelo Animado</h3>
+                <p>Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a em uma velha. Desesperada, ela embarca em uma odisseia em busca do mago Howl, um misterioso feiticeiro que pode ajudá-la a reverter o feitiço.</p>
+                <a href="#" class="btn">Assistir</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/vidas-ao-vento.png) no-repeat"></div>
+            <div class="content">
+                <h3>Vidas ao Vento</h3>
+                <p>Jiro Horikoshi é um jovem que vive em uma cidade no interior do Japão. Ele tem o sonho de voar em um avião com formato de pássaro. A partir desse sonho, Jiro decide que construir um avião como deseja e colocá-lo no ar é a meta de sua vida. Durante a busca pela realização deste objetivo, ele conhece Naoko, uma jovem encantadora por quem se apaixona. No entanto, Naoko fica profundamente doente, sem saber se sobreviverá, e os planos de Jiro podem estar prestes a mudar.</p>
+                <a href="#" class="btn">Assistir</a>
+            </div>
+        </div>
+
+      
+    
+    </div>
+</section>
+
+
+<div class="copyright container">
+    <a href="#" class="logo"><i class="fas fa-infinity"></i>Garramo</a>
+    
+</div>
+
+
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script>  <script src="garramo.js" defer data-deferred="1"></script> </body>
 </html>

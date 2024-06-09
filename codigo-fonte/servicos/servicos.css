@@ -35,8 +35,20 @@ header {
     z-index: 99;
 }
 
+.card1{
+    margin-left: 80px;
+    width: 100%;
+}
 
+.card2{ 
+    align-items: center;
+    width: 100%;
+}
 
+.card3{
+    margin-right: 80px;
+    width: 100%;
+}
 /* cards */ 
 
   .plan {

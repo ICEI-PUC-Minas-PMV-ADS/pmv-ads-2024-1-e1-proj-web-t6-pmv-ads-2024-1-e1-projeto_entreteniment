@@ -408,11 +408,11 @@ header {
   /* fim dos cards */
 
 .garramo {
-font-size:2em;
-color: antiquewhite;
-user-select: none;
-margin-left: 5%;
-margin-top: auto;
+  font-size: 1em;
+  color: antiquewhite;
+  margin-left: 10%; 
+  text-decoration: none;
+  font-weight: bold;
 
 
 }

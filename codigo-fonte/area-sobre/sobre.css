@@ -37,10 +37,12 @@ header {
 }
 
 .garramo {
-    font-size: 2em;
+    font-size: 1.5em;
     color: antiquewhite;
-    user-select: none;
-    margin-left: 5%;
+    margin-left: 10%; 
+    text-decoration: none;   
+    
+
 }
 
 .navigation a {

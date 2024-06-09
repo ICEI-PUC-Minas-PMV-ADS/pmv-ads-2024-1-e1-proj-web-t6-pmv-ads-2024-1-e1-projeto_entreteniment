@@ -37,12 +37,12 @@ Apresentamos a você a equipe Garramo: André Samuel e Daniel Laurindo. <br> Som
         <form action="#">
             <div class="input-box"> 
                 <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-                <input type="email" required>
+                <input type="text" id="entrar">
                 <label> E-mail ou número de celular</label>
             </div>
             <div class="input-box"> 
                 <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
-                <input type="password" required>
+                <input type="password" id="senhaentrar">
                 <label> Senha </label>
             </div>
             <div class="remember-forgot1">
@@ -50,7 +50,7 @@ Apresentamos a você a equipe Garramo: André Samuel e Daniel Laurindo. <br> Som
                     Lembre-se de mim </label>
                     <a href="#"> Esqueceu a senha? </a>
             </div>
-            <button type="submit" class="btn"> Entrar </button>
+            <button type="submit" onclick="logar(); return false" class="btn"> Entrar </button>
             <div class="login-register">
                 <p> Novo por aqui? <a href="#" class="register-link"> Cadastre-se </a></p>
 
@@ -105,7 +105,22 @@ Apresentamos a você a equipe Garramo: André Samuel e Daniel Laurindo. <br> Som
   <script src="sobre.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    function logar(){
+        var login = document.getElementById('entrar').value;
+        var senha = document.getElementById('senhaentrar').value;
+        
+        if(login == "admin" && senha == "admin"){
+            alert('Sucesso');
+            location.href = "../tela-incial/inicial.html";
+        }else{
+            alert('Usuário ou senha incorretos');
+        }
 
+
+    }
+
+  </script>
 </body>
 
 </html>

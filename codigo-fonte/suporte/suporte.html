@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garramo</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="suporte.css">
 </head>
 
 
@@ -21,7 +21,7 @@
          <a href="../area-sobre/sobre.html"> Sobre </a>
          <a href="../servicos/servicos.html"> Serviços </a>
          <a href="suporte.html"> Suporte </a>
-        <button class="btnLogin-popup"> Entrar </button>
+         <button class="btnLogin-popup"> Entrar </button>
      </nav>
 </header>
  
@@ -30,12 +30,12 @@
     </span>
 
 
-     <div class="form-box login">
+    <div class="form-box login">
         <h2> Entrar </h2>
         <form action="#">
             <div class="input-box"> 
                 <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-                <input type="email" required>
+                <input type="text" id="entrar">
                 <label> E-mail ou número de celular</label>
             </div>
             <div class="input-box"> 
@@ -48,7 +48,7 @@
                     Lembre-se de mim </label>
                     <a href="#"> Esqueceu a senha? </a>
             </div>
-            <button type="submit" class="btn"> Entrar </button>
+            <button type="submit" onclick="logar(); return false" class="btn"> Entrar </button>
             <div class="login-register">
                 <p> Novo por aqui? <a href="#" class="register-link"> Cadastre-se </a></p>
 
@@ -100,7 +100,7 @@
 
  </div>
 
-  <script src="script.js"></script>
+  <script src="suporte.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 

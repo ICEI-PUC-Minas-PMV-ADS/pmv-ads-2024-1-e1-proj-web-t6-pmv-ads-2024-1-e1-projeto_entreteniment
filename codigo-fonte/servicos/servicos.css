@@ -487,8 +487,8 @@ header {
 
 .wrapper {
   
-    width: 330px;
-    height: auto;
+    width: 1500px;
+    height: 500px;
     border: 2px solid rgba(255,255, 255, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
@@ -497,6 +497,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    right: 80px;
     z-index: 1;
     overflow: hidden;
     transform: scale(0);

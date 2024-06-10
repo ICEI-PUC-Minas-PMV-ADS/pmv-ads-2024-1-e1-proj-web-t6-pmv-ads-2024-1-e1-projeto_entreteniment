@@ -29,6 +29,22 @@ header {
     z-index: 99;
 }
 
+.div-video {
+    width: 100%;
+    padding-top: 40%;
+    position:fixed ;
+    z-index: 1;
+}
+
+.div-video iframe {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    border-radius: 1%;
+}
+
 .text {
     color: #fff;
     margin-top: -40vh;

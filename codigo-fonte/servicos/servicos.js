@@ -31,7 +31,7 @@ function logar(){
     
     if(login == "admin" && senha == "admin"){
         alert('Sucesso');
-        location.href = "../tela-incial/inicial.html";
+        location.href = "/codigo-fonte/area-sobre/sobre.html";
     }else{
         alert('Usuário ou senha incorretos');
     }

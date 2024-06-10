@@ -11,15 +11,13 @@
 
 
 body {
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-background-size: cover;
-background-position: center;
-margin-left: 40%;
-
-
+    /* Imagem de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://www.bhmpics.com/downloads/studio-ghibli-desktop-Wallpapers/16.studio-ghibli-desktop-grave-of-the-fireflies-q0y1lro42goyqwa5.jpg");
+    background-size: cover;
 }
 
 header {
@@ -32,18 +30,33 @@ header {
     justify-content:space-between;
     align-items: center;
     z-index: 99;
+    background-color: transparent;
+    
 }
 
+.a {
+    background-color: transparent;
+}
 
-.garramo a {
-    font-size:1.5em;
-    color: antiquewhite;
-    user-select: none;
-    margin-left: 10%;
-    margin-top: auto;
-    text-decoration: none;
+.h2 {
+    background-color: transparent;
+}
 
-}    
+.garramo {
+        font-size: 1.5em;
+        color: antiquewhite;
+        margin-left: 10%; 
+        text-decoration: none;
+        background-color: transparent;    
+    
+}
+
+.a {
+    background: transparent;
+}
+.navigation {
+    background: transparent;
+}
 
 .navigation a {
      position: relative;

@@ -24,17 +24,3 @@ iconClose.addEventListener('click', ()=> {
     wrapper.classList.remove('active-popup');
 
 });
-
-function logar(){
-    var login = document.getElementById('entrar').value;
-    var senha = document.getElementById('senhaentrar').value;
-    
-    if(login == "admin" && senha == "admin"){
-        alert('Sucesso');
-        location.href = "/tela-incial/inicial.html";
-    }else{
-        alert('Usuário ou senha incorretos');
-    }
-}
-
-

@@ -25,14 +25,3 @@ iconClose.addEventListener('click', ()=> {
 
 });
 
-function logar(){
-    var login = document.getElementById('entrar').value;
-    var senha = document.getElementById('senhaentrar').value;
-    
-    if(login == "admin" && senha == "admin"){
-        alert('Sucesso');
-        location.href = "/codigo-fonte/area-sobre/sobre.html";
-    }else{
-        alert('Usuário ou senha incorretos');
-    }
-}

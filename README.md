@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 * Andre Samuel Teixeira Fernandes
 * Daniel Laurindo Medeiros da Silva
-* Lucas Rocha Nunes Júnior
+
 
 ## Orientador
 

@@ -135,25 +135,17 @@ header {
 
 .wrapper.active-popup{
     transform: scale(1);
-
-
-
 }
 
 
 .wrapper.active {
    height: 502px;
-  
 }
 
-
-
 .wrapper .form-box{
-
 width: 100%;
 padding: 30px;
 height: 320px;
-
 }
 
 .wrapper .form-box.login {

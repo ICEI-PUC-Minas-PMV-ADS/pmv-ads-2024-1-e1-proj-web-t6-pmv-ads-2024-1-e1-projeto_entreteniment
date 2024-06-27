@@ -1,7 +1,3 @@
-# Referências Bibliográficas
+# Referências
 
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+MELO, Cristiano. Streaming cresce no Brasil e atinge 43,4% dos domicílios com TV em 2022. Mundo Conectado, Streaming, 9 nov. 2023. Disponível em https://mundoconectado.com.br/streaming/streaming-cresce-no-brasil-e-atinge-434-dos-domicilios-com-tv-em-2022/

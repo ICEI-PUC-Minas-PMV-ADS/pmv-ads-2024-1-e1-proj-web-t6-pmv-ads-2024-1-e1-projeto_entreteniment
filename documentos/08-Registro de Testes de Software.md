@@ -21,7 +21,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 |Caso de Teste    | CT-2- SUPORTE|
 |:---|:---|
 | Resultados obtidos | 7/10  |
-| Responsável pela execução do caso de Teste | Daniel |
+| Responsável pela execução do caso de Teste | André |
 
 
 

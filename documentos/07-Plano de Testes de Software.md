@@ -116,7 +116,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-05:	O site deve enviar um e-mail para os autores relatando o problema ou dúvida do usuário.</li>
    </ul>
   </td>
-  <td> .</td>
+  <td> Se o produtor receber o e-mail do usuário relatando sua necessidade.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -147,7 +147,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-06:	O site deve dar a possibilidade de controle de acesso aos responsáveis de menores de idade.</li>
    </ul>
   </td>
-  <td> .</td>
+  <td> Validar a função "Controlde de pais".</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>

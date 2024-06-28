@@ -52,7 +52,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-02: Sistema de recomendações </td>
   <td>
    <ul>
-    <li>RF-01:	O site deve enviar aos usuários sugestões de conteúdo .</li>
+    <li>RF-02:	O site deve enviar aos usuários sugestões de conteúdo .</li>
    </ul>
   </td>
   <td> Verificar se as recomendações estão corretas </td>
@@ -79,7 +79,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar o funcionamento do filtro de pesquisa</td>
+  <td>CT-03: Verificar o funcionamento do filtro de pesquisa</td>
   <td>
    <ul>
     <li>RF-04:	O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar filmes e/ou séries de seu interesse.</li>
@@ -110,7 +110,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-03: Validar a confirmação de recebimento de e-mail do usuário através da página Suporte </td>
+  <td>CT-04: Validar a confirmação de recebimento de e-mail do usuário através da página Suporte </td>
   <td>
    <ul>
     <li>RF-05:	O site deve enviar um e-mail para os autores relatando o problema ou dúvida do usuário.</li>
@@ -119,14 +119,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td> .</td>
   <td>
    <ol>
-    <li> .</li>
-    <li> .</li>
-    <li> .</li>
-    <li> .</li>
-    <li> .</li>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Sobre.</li>
+    <li>Clicar na aba pesquisa.</li>
+    <li>Digitar na caixa de texto a sua reclamação e/ou sugestão.</li>
    </ol>
    </td>
-  <td>Todas as informações, incluindo imagens das capas, referentes aos livros estão disponíveis na página Livros.</td>
+  <td>O produtor do site vai receber por e-amil esta sugestão, contendo nome, e-mail e o texto.</td>
   <td>André</td>
  </tr>
 </table>
@@ -141,7 +141,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: . </td>
+  <td>CT-06: . </td>
   <td>
    <ul>
     <li> .</li>

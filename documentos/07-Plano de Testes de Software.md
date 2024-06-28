@@ -138,25 +138,26 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Objetivo do teste</th>
   <th>Passos</th>
   <th>Critérios de êxito</th>
-  <th>Responsável</th>
+  <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-06: . </td>
+  <td>CT-05: Validar a função controle de pais </td>
   <td>
    <ul>
-    <li> .</li>
+    <li>RF-06:	O site deve dar a possibilidade de controle de acesso aos responsáveis de menores de idade.</li>
    </ul>
   </td>
   <td> .</td>
   <td>
    <ol>
-    <li> .</li>
-    <li> .</li>
-    <li> .</li>
-    <li> .</li>
-    <li> .</li>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Fazer o login na página inicial.</li>
+    <li>Clicar na caixa de texto "Controle de pais".</li>
+    <li>Função "Controle de pais" deverá ser ativada"</li>
    </ol>
    </td>
-  <td> . </td>
+  <td>Esta conta deverá ter seu acesso com restrições de conteúdos.</td>
+  <td>André</td>
  </tr>
 </table>

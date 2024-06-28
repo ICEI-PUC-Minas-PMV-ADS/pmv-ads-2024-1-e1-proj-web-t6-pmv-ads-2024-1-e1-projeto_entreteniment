@@ -23,7 +23,16 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 | Resultados obtidos | 7/10  |
 | Responsável pela execução do caso de Teste | Daniel |
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/161989652/98c1620f-0654-4f6d-a290-42c437414c2d
+
+
+
+
+
 
 
 
@@ -33,8 +42,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 | Resultados obtidos | 7/10  |
 | Responsável pela execução do caso de Teste | Daniel |
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
 
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/161989652/e30fbd90-8566-4aa1-869d-69341cebad35
 
 
 
@@ -45,4 +58,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 | Resultados obtidos | 7/10  |
 | Responsável pela execução do caso de Teste | Daniel |
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/assets/161989652/71f1c399-2fa4-4e3f-b9b9-19a22599d8cf
+
+

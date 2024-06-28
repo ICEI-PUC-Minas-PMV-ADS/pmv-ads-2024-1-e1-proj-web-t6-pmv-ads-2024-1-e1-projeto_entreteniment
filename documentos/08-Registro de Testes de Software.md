@@ -7,7 +7,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-1- LOGIN|
 |:---|:---|
 | Resultados obtidos | 6/10  |
-| Responsável pela execução do caso de Teste | André |
+| Responsável pela execução do caso de Teste | Daniel |
 
 
 
@@ -21,7 +21,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 |Caso de Teste    | CT-2- SUPORTE|
 |:---|:---|
 | Resultados obtidos | 7/10  |
-| Responsável pela execução do caso de Teste | André |
+| Responsável pela execução do caso de Teste | Daniel |
 
 
 
@@ -40,7 +40,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 |Caso de Teste    | CT-3- PESQUISA|
 |:---|:---|
 | Resultados obtidos | 7/10  |
-| Responsável pela execução do caso de Teste | Daniel |
+| Responsável pela execução do caso de Teste | André |
 
 
 
@@ -56,7 +56,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-
 |Caso de Teste    | CT-4- RECOMDENDAÇÃO|
 |:---|:---|
 | Resultados obtidos | 7/10  |
-| Responsável pela execução do caso de Teste | Daniel |
+| Responsável pela execução do caso de Teste | André |
 
 
 

@@ -49,6 +49,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
+  <td>CT-02: Sistema de recomendações </td>
+  <td>
+   <ul>
+    <li>RF-01:	O site deve enviar aos usuários sugestões de conteúdo .</li>
+   </ul>
+  </td>
+  <td> Verificar se as recomendações estão corretas </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar na aba de pesquisa.</li>
+   </ol>
+   </td>
+  <td>Receber recomendações necessárias de acordo com o interesse do usuário.</td>
+  <td>Daniel</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
   <td>CT-02: Verificar o funcionamento do filtro de pesquisa</td>
   <td>
    <ul>

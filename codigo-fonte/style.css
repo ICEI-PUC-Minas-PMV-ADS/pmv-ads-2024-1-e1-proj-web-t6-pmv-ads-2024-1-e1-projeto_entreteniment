@@ -263,15 +263,16 @@ color: #fff;
 }
 
 .notifications {
+    display: flex;
     font-size: .9em;
     font-weight: 50px;
     margin: -15px 0 15px -10px;
-    display: flex;
+    color: #fff;
     text-align: center;
     justify-content:space-around; 
 }
 
-.termos {
+.notifications a {
     color: #fff;
 }
 

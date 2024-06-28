@@ -40,18 +40,13 @@
         <form action="#">
             <div class="input-box"> 
                 <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-                <input type="email" required>
+                <input type="email" id="login" required>
                 <label> E-mail ou número de celular</label>
             </div>
             <div class="input-box"> 
                 <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
-                <input type="password" required>
+                <input type="password" id="senha" required>
                 <label> Senha </label>
-            </div>
-            <div class="remember-forgot">
-                <label><input type="checkbox">
-                    Lembre-se de mim </label>
-                    <a href="#"> Esqueceu a senha? </a>
             </div>
             <button type="submit" onclick="logar(); return false" class="btn"> Entrar </button>
             <div class="login-register">
@@ -80,18 +75,8 @@
                 <input type="password" required>
                 <label> Senha </label>
             </div>
-            <div class="controle-parental">
-                <label><input type="checkbox">
-                Controle parental </label> 
-            </div>
-            
-            <div class="remember-forgot">
-                <label><input type="checkbox">
-                Deseja receber notificações? </label> 
-            </div>
             <div class="notifications">
-                <label><input type="checkbox">
-                    Eu concordo com os termos e condições </label> 
+                <label><input type="checkbox" class="termos"> <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment/blob/main/apresentacao/Apresenta%C3%A7%C3%A3o%20Garramo.zip" target="_blank" style="text-decoration: none;"> Termos e condições </a> </label>
             </div>
             <button type="submit" class="btn"> Cadastro </button>
             <div class="login-register">

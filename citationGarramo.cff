@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title: Garramo
+authors:
+  - family-names: Teixeira Fernandes 
+    given-names: André
+  - family-names: Laurindo
+    given-names: Daniel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Assis Alves da Silva  
+    given-names: Simone
+keywords:
+  - Cinema
+  - Studios Ghibli
+  - Streaming 
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-pmv-ads-2024-1-e1-projeto_entreteniment 
+version: 1.0.0
+date-released: 2024-06-28

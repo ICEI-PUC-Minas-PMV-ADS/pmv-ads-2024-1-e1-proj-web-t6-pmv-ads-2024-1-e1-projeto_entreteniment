@@ -6,12 +6,9 @@
 
 `EIXO 1`
 
-Criada com o propósito de conectar você a histórias inspiradoras, a
-Garramo viu a oportunidade de auxiliar indecisos na escolha filmes e séries e
-se destaca por sua habilidade em recomendar obras cinematográficas que
-se alinham aos seus gostos pessoais. Com um catálogo que inclui desde
-clássicos atemporais até as mais recentes produções originais, esperamos
-proporcionar uma experiência agradável e útil para você.
+Criada com o propósito de conectar você a histórias inspiradoras, a Garramo viu a oportunidade de auxiliar indecisos na escolha filmes e séries e
+se destaca por sua habilidade em recomendar obras cinematográficas que se alinham aos seus gostos pessoais. <br>
+Nosso catálogo inclui os clássicos atemporais dos Studios Ghibli, dirigidos pelo Hayao Miyazaki, esperamos proporcionar uma experiência agradável e útil para você.
 
 
 ## Integrantes
